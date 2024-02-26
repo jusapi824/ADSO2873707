@@ -1,0 +1,4 @@
+nombre: Juan Felipe Lopez Aguirre
+numero: 3227214862
+Direccion: Cra 4h #48 i 36
+Correo: juankdff@gmail.com
