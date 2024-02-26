@@ -1,0 +1,8 @@
+Subir un documento de texto con el nombre de cada aprendiz.
+
+Cada uno deberá subir los siguientes datos:
+
+nombre: Jhoan Sebastian Zuluaga Ballesteros
+telefono: 3206321107
+correo: zsebastian610@gmail.com
+dirección: Enea
