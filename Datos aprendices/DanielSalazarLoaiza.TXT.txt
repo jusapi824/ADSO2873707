@@ -1,0 +1,4 @@
+nombre: Daniel Salazar Loaiza
+telefono: 3244472886
+correo: DanielSalazarSENA@outlook.com
+dirección: Carrera 4b #48-07
