@@ -1,4 +1,0 @@
-nombre:geraldine
-telefono: 3228925330
-correo: geraldinevasquezgutierrez@gmail.com
-dirreccion: calle 2a N 5-55
