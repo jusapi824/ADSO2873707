@@ -1,0 +1,4 @@
+nombre:		JUAN CARLOS DUQUE GIRALDO
+telefono:	3014492566
+correo:		juan_cduqueg@soy.sena.edu.co
+dirección:	CLL9 9-29
