@@ -1,0 +1,8 @@
+Subir un documento de texto con el nombre de cada aprendiz.
+
+Cada uno deberá subir los siguientes datos:
+
+nombre: mateo garcia lopez 
+telefono: 3132776615
+correo mateogarcua5451@gmail.com
+dirección: calle 7 #13-09 villamaria
