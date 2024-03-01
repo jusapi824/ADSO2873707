@@ -1,15 +1,15 @@
-Proceso ej19
-	Definir numeroa Como entero;
-	definir numerob Como entero;
+Algoritmo ejercicio19
+	Definir numero1 Como entero;
+	definir numero2 Como entero;
 	
-	Escribir "digite el numero 1";
-	Leer numeroa;
-	Escribir "digite el numero 2";
-	Leer numerob;
+	Escribir "Escriba el primer numero";	
+	Leer numero1;	
+	Escribir "Escriba el segundo numero";
+	Leer numero2;
 	
-	si numeroa mod numerob == 0 Entonces
-		Escribir "el numero ", numeroa," es multiplo del numero ", numerob;
-	SiNo
-		Escribir "el numero ", numeroa," no es multiplo del numero ", numerob;
+	
+	si numero1 mod numero2 == 0 Entonces
+		Escribir "El numero", numero1," Es multiplo del numero ", numero2;
+		Escribir "El numero", numero1," No es multiplo del numero ", numero2;
 	FinSi
-FinProceso
+FinAlgoritmo

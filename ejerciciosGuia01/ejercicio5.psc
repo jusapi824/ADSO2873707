@@ -1,12 +1,15 @@
 Proceso ejercicio5
-	Definir nombre_perosna como cadena;
-	escribir "el nombre de la persona es";
-	Leer nombre_perosna;
+	Definir nombre_persona como cadena;
 	Definir comida_preferida como cadena;
-	Escribir " la comida favorita de la persona es";
-	Leer comida_preferida;
-	Definir cantidad_dinero Como Entero;
-	Escribir "la cantidad de dinero que posee la persona es";
-	Leer cantidad_dinero;
+	Definir cantidad_dinero Como real;
+	
+	nombre_persona <- "jaime gutierrez posada:";
+	comida_preferida <- " la pizza:";
+	cantidad_dinero <- 900.000;
+	
+	Escribir " el nombre de la persona:", nombre_persona;
+	Escribir " la comida preferida:", comida_preferida;
+	Escribir " cantidad de dinero que posee :", cantidad_dinero;
+	
 	
 FinProceso

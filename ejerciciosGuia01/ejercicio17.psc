@@ -1,15 +1,17 @@
-Proceso ej17
-	Definir numeroa Como Entero;
-	Definir numerob Como Entero;
+Proceso ejercicio17
+	Definir numero_1 Como Entero;
+	Definir numero_2 Como Entero;
 	
-	Escribir "digite nuemro a";
-	Leer numeroa;
-	Escribir "digite numero b";
-	Leer numerob;
 	
-	si (numeroa=numerob)Entonces
-		Escribir "los numeros son iguales";
+	Escribir "escriba el numero 1";
+	Leer numero_1;
+	Escribir "escriba el numero 2";
+	Leer numero_2;
+	
+	
+	si (numero_1=numero_2)Entonces
+		Escribir "Los numeros son iguales";
 	SiNo
-		Escribir "los numeros son diferentes";
+		Escribir "Los numeros son diferentes";
 	FinSi
 FinProceso

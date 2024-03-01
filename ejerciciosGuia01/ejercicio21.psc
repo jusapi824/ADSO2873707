@@ -1,22 +1,19 @@
-Proceso ej21
-	Definir numeroa,numerob Como Real;
+Algoritmo ejercicio21
+	Definir numero1,numero2 Como Real;
 	
-	Escribir "digite el numero a";
-	Leer numeroa;
-	Escribir "digite el numero b";
-	Leer numerob;
-	si numeroa > numerob Entonces
-		si numeroa>numerob Entonces
-			Escribir "el numero ", numeroa," es menor que el numero ", numerob;
+	Escribir "Escriba el primer numero";
+	Leer numero1;
+	Escribir "Escriba el segundo numero";
+	Leer numero2;
+	si numero1 > numero2 Entonces
+		si numero1>numero2 Entonces
+			Escribir "El numero ", numero1," Es menor que el numero ", numero2;
 		SiNo
-			Escribir "el numero  ", numerob," es mayor que el numero ", numeroa;
+			Escribir "el numero  ", numero2," Es mayor que el numero ", numero1;
 		FinSi
 	SiNo
-		si numeroa==numerob Entonces
+		si numero1==numero2 Entonces
 			Escribir "los numeros son iguales";
 		FinSi
 	FinSi
-	
-	
-
-FinProceso
+FinAlgoritmo

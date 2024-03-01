@@ -1,11 +1,13 @@
 Proceso ejercicio8
 	Definir nombre_persona como cadena;
-	Escribir " el nombre de la persona es";
-	Leer nombre_persona;
-	Definir horas_estudio Como Entero;
-	Escribir " las horas que estudio en la semana fueron";
-	Leer horas_estudio;
-	Escribir " el estudiante ",nombre_persona, " estudio ",horas_estudio, " horas a la semana";
+	Definir horasque_estudia Como cadena;
+	
+	nombre_persona <- "Jorge Eduardo Ospina Aristizabal";
+	horasque_estudia <- "4 horas";
+	
+	
+	Escribir "el nombre del estudiante:", nombre_persona;
+	Escribir "las horas que estudia en la semana:", horasque_estudia;
 	
 	
 FinProceso

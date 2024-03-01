@@ -1,18 +1,19 @@
-Proceso ej25
-	Definir nota Como Real;
+Algoritmo EJERCICIO25
+	Definir Lanota Como Real;
 	
-	Escribir "digite su nota";
-	Leer nota;
+	Escribir "Escriba su nota";
+	Leer Lanota;
 	
-	si nota <= 2.9 Entonces
-		Escribir "su nota es insuficiente";
+	si Lanota <= 2.9 Entonces
+		Escribir "Su nota no es suficiente";
 	SiNo
 		si nota <= 4.5 Entonces
-			Escribir "su nota es suficiente";
+			Escribir "Su nota es suficiente";
 		SiNo
-			si nota <= 5 Entonces
-				Escribir "su nota es buena";
+			si Lanota <= 5 Entonces
+				Escribir "Su nota es buena";
 			FinSi
 		FinSi
 	FinSi
-FinProceso
+	
+FinAlgoritmo

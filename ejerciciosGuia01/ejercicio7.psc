@@ -1,11 +1,13 @@
 Proceso ejercicio7
-	Definir num1 Como Entero;
-	Definir num2 Como Entero;
-	definir resultado Como Entero;
-	Escribir "leer el primer numero";
-	Leer num1;
-	Escribir "leer el segundo numero";
-	Leer num2;
-	resultado <- num1+num2;
-	Escribir "el resultado es ",resultado;
+	definir numero1 como real;
+	Definir numero2 Como real;
+	Definir resultado Como Real;
+	
+	Escribir "el numero7";
+	Leer numero1;
+	Escribir "el numero8";
+	Leer numero2;
+	resultado <- numero1+numero2;
+	Escribir " el resultado de numero1 y numero2:", resultado;
+	
 FinProceso

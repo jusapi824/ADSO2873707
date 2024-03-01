@@ -1,13 +1,15 @@
-Algoritmo ej18
-	Definir numeroa Como Entero;
+Algoritmo ejercicio18
+	Definir numero Como Entero;
 	
-	Escribir" digite un numero mayor o menor que cero";
-	Leer numeroa;
+	Escribir" Escriba un numero mayor o menor que cero";
 	
-	si(numeroa >= 0)Entonces
-		Escribir "el numero es positivo";
+	Leer numero;
+	
+	
+	si(numero >= 0)Entonces
+		Escribir "El numero es positivo";
 	SiNo
-		Escribir "el numero es negativo";
+		Escribir "El numero es negativo";
 		
 	FinSi
 	

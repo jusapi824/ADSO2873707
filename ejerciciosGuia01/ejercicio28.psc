@@ -1,18 +1,23 @@
-Proceso ejercicio28
-	Definir horas_trabajadas Como Real;
-	Definir horas_extras Como Real;
-	Definir valor_horat Como Entero;
-	 Definir valor_hora_extra Como Entero;
+Algoritmo ejercicio28
+	Definir horastrabajadas,horasextras Como Real;
+	Definir valorhora,extra Como Entero;
 	
-	Escribir "digite sus horas trabajadas";
-	Leer horas_trabajadas;
-	Escribir "digite su pago por horas trabajadas";
-	leer valor_horat;
 	
-	horas_extras <- horas_trabajadas - 50;
-	valor_hora_extra <- (valor_horat * horas_trabajadas) + (20000 * horas_extras);
+	Escribir "Escriba sus horas trabajadas";
+	Leer horastrabajadas;
+	Escribir "Escriba su pago por horas trabajadas";
+	leer valorhora;
 	
-	si horas_trabajadas >= 50 Entonces
-		Escribir "sus horas trabajadas fueron ", horas_trabajadas," y tuvo un total de horas extra de ", horas_extras," por lo que su salario final es ", valor_hora_extra;
+	
+	horasextras <- horastrabajadas - 40;
+	extra <- (valor_hora * horas_trabajadas) + (10000 * horas_extras);
+	
+	
+	si horastrabajadas >= 40 Entonces
+		
+		Escribir "sus horas trabajadas fueron ", horastrabajadas," y tuviste un total de horas extra de ", horasextras," por lo que tu salario final seria ", extra;
+		
 	FinSi
-FinProceso
+	
+	
+FinAlgoritmo

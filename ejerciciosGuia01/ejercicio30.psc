@@ -1,12 +1,13 @@
 Proceso ejercicio30
-	Definir numeroa,numerob,divicion Como Real;
+	Definir numero_1,numero_2,division Como Real;
 	
-	Escribir "digite el numero que quiere dividir";
-	Leer numeroa;
-	Escribir "digite el denominador que sea un numero mayor a 0";
-	Leer numerob;
+	Escribir "Escriba el numerador que va a dividir";
+	Leer numero_1;
+	Escribir "Escriba el denominador que sea un numero mayor a 0";
+	Leer numero_2;
 	
-	divicion <- numeroa / numerob ;
+	division <- numero_1 / numero_2 ;
 	
-	Escribir "el resultado de su divicion es ", divicion;
+	Escribir "El resultado de su division es ", division;
+	
 FinProceso

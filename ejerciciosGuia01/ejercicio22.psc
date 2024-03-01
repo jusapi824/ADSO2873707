@@ -1,14 +1,14 @@
-Proceso ej22
-	Definir numeroa,numerob Como Real;
+Algoritmo ejercicio22
+	Definir numero1,numero2 Como Real;
 	
-	Escribir "digite el  numero a";
-	Leer numeroa;
-	Escribir "digite el numero b";
-	Leer numerob;
+	Escribir "escriba el primer numero";
+	Leer numero1;
+	Escribir "escriba el segundo numero";
+	Leer numero2;
 	
-	si numeroa>numerob Entonces
-		Escribir "el orden de mayor a menor es ", numeroa," , ", numerob;
+	si numero1>numero2 Entonces
+		Escribir "el orden de mayor a menor es ", numero1," , ", numero2;
 	SiNo
-		Escribir "el orden de mayor a menor es  ", numerob," , ", numeroa;
+		Escribir "el orden de mayor a menor es  ", numero2," , ", numero1;
 	FinSi
-FinProceso
+FinAlgoritmo

@@ -1,9 +1,8 @@
-Proceso ej13
-	Definir radio Como Real;
+Algoritmo ejercicio13
+	Definir radio_circulo Como Real;
 	Definir area Como Real;
-	Escribir "digite el radio de su circulo";
+	Escribir "escriba el radio de su circulo";
 	leer radio;
-	area <- PI *(radio*radio);
+	area <- 3.14*(radio*radio);
 	Escribir " el area es: ", area;
-	
-FinProceso
+FinAlgoritmo

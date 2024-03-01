@@ -1,14 +1,14 @@
-Proceso ej16
+Proceso ejercicio16
 	Definir x Como Real;
-	Definir y1 Como Real;
-	Definir  area Como Real;
+	Definir y_ Como Real;
+	Definir  arearectangulo Como Real;
 	
-	Escribir "escriba el numero x";
+	Escribir "Escribe el valor de la x";
 	Leer x;
-	Escribir "escriba el numero y";
-	leer y1;
+	Escribir "Escribe el valor de la y";
+	leer y_;
 	
-	area <- x * y1;
+	arearectangulo <- x * y_;
 	
-	Escribir "el area del rectangulo es: ", area;
+	Escribir "el area del rectamgulo es: ", arearectangulo;
 FinProceso

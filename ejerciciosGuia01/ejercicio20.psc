@@ -1,15 +1,14 @@
-Proceso ej20
-	Definir numeroa Como Real;
-	Definir numerob Como Real;
+Algoritmo Ejercicio20
+	Definir numero_1,numero_2 Como Real;
 	
-	Escribir "digite el numero a";
-	Leer numeroa;
-	Escribir "digite el numero b";
-	Leer numerob;
+	Escribir "Escriba el primer numero";
+	Leer numero_1;
+	Escribir "Escriba el segundo numero";
+	Leer numero_2;
 	
-	si numeroa>numerob Entonces
-		Escribir "el numero ", numeroa," es menor que el numero ", numerob;
+	si numero_1>numero_2 Entonces
+		Escribir "El numero ", numero_1," Es menor que el numero ", numero_2;
 	SiNo
-		Escribir "el numero  ", numerob," es mayor que el numero ", numeroa;
+		Escribir "el numero  ", numero_2," Es mayor que el numero ", numero_1;
 	FinSi
-FinProceso
+FinAlgoritmo

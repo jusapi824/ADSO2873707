@@ -1,12 +1,13 @@
-Proceso ej27
-	Definir numeroa Como Real;
+Algoritmo EJERCICIO27
+	Definir numero_1 Como Real;
 	
-	Escribir "digite un numero";
-	Leer numeroa;
+	Escribir "Escriba un numero";
+	Leer numero1;
 	
-	si numeroa%2==0 Entonces
-		Escribir numeroa," es un numero par";
+	si numero1%2==0 Entonces
+		Escribir numero1," El numero es par";
 	SiNo
-		Escribir numeroa," es un numero impar";
+		Escribir numero1," EL numero es impar";
 	FinSi
-FinProceso
+	
+FinAlgoritmo

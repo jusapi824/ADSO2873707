@@ -1,14 +1,14 @@
-Proceso ej15
-	Definir lado Como Real;
+Proceso ejercicio15
+	Definir ladodecuadrado Como Real;
 	Definir area como real;
-	Definir perimetroo Como Real;
+	Definir perimetro Como Real;
 	
-	Escribir "el lado mide";
-	Leer lado;
+	Escribir "El lado mide";
+	Leer ladodecuadrado;
 	
-	area <- lado*lado;
-	perimetroo <- lado*4;
+	area <- ladodecuadrado*ladodecuadrado;
+	perimetro <- ladodecuadrado*4;
 	
-	Escribir "el area del cuadrado es ", area;
-	Escribir "el perimetro del cuadrado es ", perimetroo;
+	Escribir "El area del cuadrado es: ", area;
+	Escribir "El perimetro del cuadrado es: ", perimetro;
 FinProceso

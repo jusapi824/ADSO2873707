@@ -1,14 +1,16 @@
 Proceso ejercicio9
 	Definir nombre_estudiante como cadena;
-	Escribir" el nombre del estudiantes es";
+	Definir cantidad_materiasperdidas Como Entero;
+	Definir cantidad_materiasganadas Como Entero;
+	
+	Escribir "el nombre del estudiante";
 	Leer nombre_estudiante;
-	Definir materias_perdidas Como Entero;
-	Escribir "la cantidad de materias que perdio es estudiante son";
-	Leer materias_perdidas;
-	Definir materias_ganadas Como Entero;
-	Escribir " la cantidad de materias aprobadas por el estudiante fueron";
-	Leer materias_ganadas;
-	Escribir " El estudiante ",nombre_estudiante, " perdio ",materias_perdidas," materias ", " y gano ", materias_ganadas," materias ";
+	Escribir "la cantidad de materias perdidas";
+	Leer cantidad_materiasperdidas;
+	Escribir "la cantidad de materias ganadas";
+	Leer cantidad_materiasganadas;
+	
+	Escribir " el estudiante ", nombre_estudiante, " tiene materias perdidas ", cantidad_materiasperdidas, " y tiene materias ganadas ",cantidad_materiasganadas;
 	
 	
 FinProceso

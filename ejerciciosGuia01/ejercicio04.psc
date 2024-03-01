@@ -1,10 +1,13 @@
 Algoritmo ejercicio04
-	Definir numeroA como real; //DEFINICION vbles
-	Definir numeroB, resultado como real; //DEFINICION vbles
-	Escribir "digite el valor del numero A";
-	leer numeroA; //ENTRADA
-	Escribir "digite el valor del numero B";
-	leer numeroB; //ENTRADA
-	resultado <- (numeroA+numeroB)*2 + 10;
-	Escribir "la multiplicacion por dos mas la suma de 10 es: ",resultado;// SALIDA
+	//Algoritmo que guarde la edad, salario y direccion y se muestren los datos.
+	Definir edad Como entero
+	Definir salario Como real
+	Definir direccion Como cadena
+	edad <- 40
+	salario <- 1500000.23
+	direccion <- "manzana b casa 19 progresar 4" ;
+	
+	Escribir "Edad es: ", edad
+	Escribir "Salario es: ", salario
+	Escribir "Las direccion es: ", direccion
 FinAlgoritmo
